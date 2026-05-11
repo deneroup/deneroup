@@ -21,9 +21,12 @@
   .highlight { background: #f0f7ff; border-left: 4px solid #1a1a2e; padding: 16px 20px; border-radius: 0 8px 8px 0; margin: 16px 0; }
   .warning { background: #fff8f0; border-left: 4px solid #ff9f0a; padding: 16px 20px; border-radius: 0 8px 8px 0; margin: 16px 0; }
   .danger { background: #fff0f0; border-left: 4px solid #ff3b30; padding: 16px 20px; border-radius: 0 8px 8px 0; margin: 16px 0; }
+  .not-a-bank { background: linear-gradient(135deg, #1a1a2e, #16213e); color: white; border-radius: 16px; padding: 28px 32px; margin-bottom: 24px; }
+  .not-a-bank h2 { color: white; border-bottom-color: rgba(255,255,255,0.2); font-size: 20px; }
+  .not-a-bank p { color: rgba(255,255,255,0.9); font-size: 15px; margin-bottom: 8px; }
   .contact-box { background: linear-gradient(135deg, #1a1a2e, #16213e); color: white; border-radius: 16px; padding: 32px; text-align: center; margin-top: 32px; }
   .contact-box h2 { color: white; border-bottom-color: rgba(255,255,255,0.2); }
-  .contact-box p { color: rgba(255,255,255,0.85); }
+  .contact-box p { color: rgba(255,255,255,0.85); margin-bottom: 8px; }
   .email-link { display: inline-block; background: white; color: #1a1a2e; font-weight: 700; padding: 12px 28px; border-radius: 50px; margin-top: 12px; text-decoration: none; font-size: 15px; }
   .footer { text-align: center; padding: 32px; color: #888; font-size: 13px; }
   .toc { background: #f8f9fa; border-radius: 12px; padding: 24px 32px; margin-bottom: 32px; }
@@ -32,11 +35,9 @@
   .toc li { margin-bottom: 6px; }
   .toc a { color: #1a1a2e; text-decoration: none; font-size: 14px; }
   .toc a:hover { text-decoration: underline; }
-  .tag { display: inline-block; background: #e8f0fe; color: #1a1a2e; border-radius: 6px; padding: 2px 10px; font-size: 12px; font-weight: 600; margin-left: 8px; vertical-align: middle; }
-  .not-a-bank { background: linear-gradient(135deg, #1a1a2e, #16213e); color: white; border-radius: 16px; padding: 28px 32px; margin-bottom: 24px; }
-  .not-a-bank h2 { color: white; border-bottom-color: rgba(255,255,255,0.2); font-size: 20px; }
-  .not-a-bank p { color: rgba(255,255,255,0.9); font-size: 15px; }
   a { color: #1a1a2e; }
+  .version-box { background: #f0f7ff; border: 1px solid #d0e4f7; border-radius: 12px; padding: 16px 20px; margin-bottom: 24px; font-size: 13px; color: #555; }
+  .tag { display: inline-block; background: #e8f0fe; color: #1a1a2e; border-radius: 6px; padding: 2px 10px; font-size: 12px; font-weight: 600; margin-left: 8px; vertical-align: middle; }
 </style>
 </head>
 <body>
@@ -44,16 +45,28 @@
 <div class="header">
   <h1>DeneroUp</h1>
   <p>Privacy Policy</p>
-  <span class="badge">Effective Date: May 10, 2026 &nbsp;|&nbsp; Last Updated: May 10, 2026</span>
+  <span class="badge">Version 1.2 &nbsp;|&nbsp; Effective: May 11, 2026 &nbsp;|&nbsp; Last Updated: May 11, 2026</span>
 </div>
 
 <div class="container">
 
-  <div class="not-a-bank">
-    <h2>⚠️ Important Disclosure</h2>
-    <p>DeneroUp is NOT a bank, broker-dealer, investment advisor, tax advisor, accounting firm, credit counselor, or financial institution of any kind. DeneroUp does not hold, move, or manage your money. DeneroUp is a personal finance data aggregation and education tool only.</p>
+  <div class="version-box">
+    <strong>Document Version:</strong> 1.2 &nbsp;|&nbsp;
+    <strong>Effective Date:</strong> May 11, 2026 &nbsp;|&nbsp;
+    <strong>Replaces:</strong> Version 1.1 (May 10, 2026)
   </div>
 
+  <!-- OPENING DISCLOSURE -->
+  <div class="not-a-bank">
+    <h2>⚠️ Important Disclosures</h2>
+    <p>DeneroUp is NOT a bank, broker-dealer, investment advisor, tax advisor, accounting firm, credit counselor, credit repair service, or financial institution of any kind.</p>
+    <p>DeneroUp is not a consumer reporting agency as defined under the Fair Credit Reporting Act (FCRA).</p>
+    <p>DeneroUp is not FDIC insured, does not offer deposit accounts, and does not hold customer funds.</p>
+    <p>DeneroUp does not hold, move, or manage your money. DeneroUp is a personal finance data aggregation and financial education tool only.</p>
+    <p>Use of DeneroUp does not create any advisory, fiduciary, agency, or professional-client relationship.</p>
+  </div>
+
+  <!-- TOC -->
   <div class="toc">
     <h3>Table of Contents</h3>
     <ol>
@@ -65,12 +78,14 @@
       <li><a href="#security">Data Storage and Security</a></li>
       <li><a href="#breach">Data Breach Notification</a></li>
       <li><a href="#retention">Data Retention and Deletion</a></li>
+      <li><a href="#records">User Responsibility for Records</a></li>
       <li><a href="#rights">Your Privacy Rights</a></li>
       <li><a href="#children">Children's Privacy</a></li>
       <li><a href="#third">Third-Party Services</a></li>
       <li><a href="#international">International Data Processing</a></li>
       <li><a href="#plaid">Plaid Bank Connection</a></li>
       <li><a href="#tracking">Tracking Technologies</a></li>
+      <li><a href="#availability">Service Availability</a></li>
       <li><a href="#apple">Apple App Store</a></li>
       <li><a href="#changes">Changes to This Policy</a></li>
       <li><a href="#contact">Contact Us</a></li>
@@ -78,18 +93,21 @@
     </ol>
   </div>
 
+  <!-- 1. INTRO -->
   <div class="card" id="intro">
     <h2>1. Introduction and Scope</h2>
-    <p>Welcome to DeneroUp ("we," "us," "our," or the "App"). DeneroUp is a personal finance management application currently operated as a sole proprietorship ("Operator"). We are committed to protecting your privacy and handling your financial data with care, transparency, and security.</p>
+    <p>Welcome to DeneroUp ("we," "us," "our," or the "App"). DeneroUp is a personal finance data aggregation and financial education application currently operated as a sole proprietorship ("Operator"). We are committed to protecting your privacy and handling your financial data with care, transparency, and security.</p>
     <p>This Privacy Policy explains what information we collect, how we use it, who we share it with, your rights regarding your data, and how we protect it. This policy applies to all users of the DeneroUp mobile application and any related services.</p>
-    <p>This Privacy Policy should be read together with our <strong>Terms of Service</strong>, which contains important additional protections including limitation of liability, warranty disclaimers, and dispute resolution terms.</p>
+    <p>This Privacy Policy should be read together with our <a href="https://deneroup.github.io/deneroup/terms-of-service.html" target="_blank">Terms of Service</a>, which contains important additional protections including limitation of liability, warranty disclaimers, and dispute resolution terms.</p>
     <div class="highlight">
       <strong>BY USING DENEROUP, YOU ACKNOWLEDGE THAT YOU HAVE READ, UNDERSTOOD, AND AGREE TO THIS PRIVACY POLICY AND OUR TERMS OF SERVICE. IF YOU DO NOT AGREE, PLEASE DO NOT USE THE APP.</strong>
     </div>
   </div>
 
+  <!-- 2. COLLECT -->
   <div class="card" id="collect">
     <h2>2. Information We Collect</h2>
+
     <h3>2.1 Information You Provide Directly</h3>
     <ul>
       <li>Name and display name</li>
@@ -97,126 +115,164 @@
       <li>Account preferences and settings</li>
       <li>Communications you send to our support team</li>
     </ul>
+
     <h3>2.2 Financial Information Collected Through Plaid</h3>
     <p>DeneroUp uses Plaid Technologies, Inc. ("Plaid") to securely connect to your bank and financial accounts. When you connect your bank account, Plaid collects and provides us with:</p>
     <ul>
-      <li>Bank account numbers (stored in encrypted, tokenized form only — never in plain text)</li>
+      <li>Bank account numbers (stored in encrypted, tokenized form only — not in plain text)</li>
       <li>Transaction history (merchant names, amounts, dates, categories)</li>
       <li>Account balances</li>
       <li>Account holder name from your financial institution</li>
     </ul>
     <div class="highlight">
-      <strong>IMPORTANT:</strong> DeneroUp never stores your bank login credentials. Your username and password are entered directly into Plaid's secure interface and are never transmitted to or stored by DeneroUp. Plaid's use of your information is governed by the <a href="https://plaid.com/legal/privacy-policy/" target="_blank">Plaid Privacy Policy</a>.
+      <strong>IMPORTANT:</strong> DeneroUp is designed so that bank login credentials are entered directly into Plaid's secure interface and are not intended to be stored by DeneroUp. Plaid's use of your information is governed by the <a href="https://plaid.com/legal/privacy-policy/" target="_blank">Plaid Privacy Policy</a>.
     </div>
+
     <h3>2.3 Automatically Collected Information</h3>
     <ul>
       <li>Device type, operating system, and version</li>
       <li>App version and usage analytics</li>
       <li>Crash reports and performance data</li>
-      <li>IP address (used for security purposes only)</li>
+      <li>IP address (used for security and compliance purposes only)</li>
       <li>App interaction data (features used, screens viewed)</li>
+      <li>Terms of Service acceptance timestamp, version, and device identifier (for compliance purposes)</li>
     </ul>
+
     <h3>2.4 Information We Do NOT Collect</h3>
     <ul>
-      <li>❌ We do NOT collect your Social Security Number</li>
-      <li>❌ We do NOT collect government-issued ID information</li>
-      <li>❌ We do NOT collect your bank login credentials</li>
-      <li>❌ We do NOT collect payment card numbers</li>
-      <li>❌ We do NOT collect biometric data</li>
+      <li>❌ We do not collect your Social Security Number</li>
+      <li>❌ We do not collect government-issued ID information</li>
+      <li>❌ We are not designed to collect your bank login credentials</li>
+      <li>❌ We do not collect payment card numbers</li>
+      <li>❌ We do not collect biometric data</li>
+      <li>❌ We do not collect credit scores or credit report data</li>
     </ul>
   </div>
 
+  <!-- 3. USE -->
   <div class="card" id="use">
     <h2>3. How We Use Your Information</h2>
+    <p>We use the information we collect solely for the following purposes:</p>
     <ul>
       <li>To provide, operate, and improve the DeneroUp application</li>
-      <li>To display your spending analysis, transaction history, and financial data</li>
-      <li>To identify spending patterns and recurring charges for informational purposes</li>
+      <li>To display your spending analysis, transaction history, and financial data for informational purposes</li>
+      <li>To identify spending patterns and recurring charges for general awareness</li>
       <li>To generate general financial education content based on your aggregated data</li>
       <li>To respond to your support requests and communications</li>
       <li>To send important service notifications and security alerts</li>
       <li>To detect and prevent fraud, abuse, or security incidents</li>
+      <li>To record Terms acceptance for legal and compliance purposes</li>
       <li>To comply with applicable legal obligations</li>
     </ul>
     <div class="highlight">
-      <strong>We do NOT use your financial data for advertising. We do NOT sell your personal information to third parties. We do NOT use your data to train AI models without your explicit consent.</strong>
+      <strong>We do NOT use your financial data for advertising. We do NOT sell your personal information to third parties. We do NOT use your data to train artificial intelligence models without your explicit consent. We do NOT provide credit repair services or credit score improvement guarantees.</strong>
     </div>
   </div>
 
+  <!-- 4. AI -->
   <div class="card" id="ai">
     <h2>4. AI Financial Education Assistant</h2>
     <div class="danger">
-      <strong>IMPORTANT LEGAL DISCLAIMER:</strong> The DeneroUp AI Assistant provides general financial education and informational content only. It does NOT provide personalized financial advice, individualized financial planning, credit counseling, investment advisory services, tax advice, legal advice, or any recommendations tailored to your specific financial circumstances. The Assistant does not provide individualized financial planning, credit counseling, investment advisory services, or recommendations tailored to your financial circumstances. DeneroUp does not have a fiduciary relationship with you. Always consult a licensed financial advisor, tax professional, or attorney for personalized guidance.
+      <strong>IMPORTANT LEGAL DISCLAIMER:</strong> The DeneroUp AI Assistant provides general financial education and informational content only. It does NOT provide personalized financial advice, individualized financial planning, credit counseling, investment advisory services, credit repair services, tax advice, legal advice, or any recommendations tailored to your specific financial circumstances. The Assistant does not provide individualized financial planning or recommendations tailored to your financial circumstances. DeneroUp does not have a fiduciary relationship with you. Always consult a licensed financial advisor, tax professional, or attorney for personalized guidance.
     </div>
-    <p>The Assistant is designed solely to help you understand general financial concepts, perform hypothetical calculations (such as estimated savings timelines or debt payoff projections based on inputs you provide), and display patterns in your own aggregated spending data for general awareness purposes only.</p>
-    <p>Any figures, projections, or estimates provided by the Assistant are hypothetical and illustrative only. They are not guarantees, predictions, or promises of any financial outcome.</p>
-    <p>Your conversations with the Assistant may be processed by Anthropic, Inc. through their Claude API. Anthropic's use of this data is governed by their <a href="https://www.anthropic.com/privacy" target="_blank">Privacy Policy</a>.</p>
+    <div class="warning">
+      <strong>AI Limitations:</strong> AI-generated content may contain inaccuracies, omissions, or outdated information and should not be relied upon as a substitute for independent verification or professional advice. The Assistant does not have access to real-time market data, current interest rates, or complete information about your financial situation. Any figures, projections, or estimates are hypothetical and illustrative only — not guarantees or predictions of any financial outcome.
+    </div>
+    <p>Your conversations with the Assistant may be processed by Anthropic, Inc. ("Anthropic") through their Claude API. Anthropic's use of this data is governed by their <a href="https://www.anthropic.com/privacy" target="_blank">Privacy Policy</a>.</p>
   </div>
 
+  <!-- 5. SHARE -->
   <div class="card" id="share">
     <h2>5. How We Share Your Information</h2>
     <p>We do not sell, rent, or trade your personal information. We share your information only in the following limited circumstances:</p>
+
     <h3>5.1 Service Providers</h3>
+    <p>Our service providers may change from time to time. Current service providers include:</p>
     <ul>
       <li><strong>Plaid Technologies, Inc.</strong> — bank account connectivity and transaction data retrieval</li>
       <li><strong>Supabase, Inc.</strong> — secure database hosting and backend infrastructure</li>
       <li><strong>Anthropic, Inc.</strong> — AI assistant functionality</li>
       <li><strong>Apple, Inc.</strong> — app distribution through the Apple App Store</li>
     </ul>
+    <p>All service providers are required to protect your data and use it only for the purposes we specify. When we change service providers, we will update this policy accordingly.</p>
+
     <h3>5.2 Legal Requirements</h3>
     <p>We may disclose your information if required by law, court order, or government authority, or if we believe in good faith that disclosure is necessary to protect our legal rights, your safety, or the safety of others.</p>
+
     <h3>5.3 Business Transfers</h3>
-    <p>In the event of a merger, acquisition, or sale of substantially all assets, your information may be transferred to the acquiring entity. We will notify you at least 30 days before your information becomes subject to a different privacy policy.</p>
+    <p>In the event of a merger, acquisition, or sale of substantially all assets, your information may be transferred to the acquiring entity. We will notify you via email and/or prominent notice in the App at least 30 days before your information becomes subject to a different privacy policy.</p>
+
+    <h3>5.4 With Your Consent</h3>
+    <p>We may share your information for any other purpose with your explicit prior consent.</p>
   </div>
 
+  <!-- 6. SECURITY -->
   <div class="card" id="security">
     <h2>6. Data Storage and Security</h2>
-    <p>Your data is stored securely using Supabase, which provides AES-256 encryption at rest and TLS 1.2+ encryption in transit. We implement reasonable administrative, technical, and organizational safeguards designed to protect your personal information, including:</p>
+    <p>Your data is stored using Supabase, which provides AES-256 encryption at rest and TLS 1.2+ encryption in transit. We implement reasonable administrative, technical, and organizational safeguards designed to protect your personal information, including:</p>
     <ul>
       <li>All data transmitted between the App and our servers is encrypted using TLS 1.2 or higher</li>
       <li>Financial data is stored in encrypted databases with restricted access controls</li>
       <li>Access to production systems requires multi-factor authentication</li>
       <li>We conduct periodic security reviews of our codebase and infrastructure</li>
-      <li>Bank credentials are never stored — only encrypted access tokens provided by Plaid</li>
+      <li>DeneroUp is designed so that bank credentials are not stored — only encrypted access tokens provided by Plaid are retained</li>
     </ul>
     <div class="warning">
-      <strong>IMPORTANT:</strong> No method of transmission over the Internet or electronic storage is 100% secure. We cannot guarantee absolute security of your data. We make no warranty that our security measures will prevent all unauthorized access, disclosure, or misuse of your information.
+      <strong>Security Limitation:</strong> No method of transmission over the Internet or electronic storage is 100% secure. We cannot guarantee absolute security of your data against cyberattacks, hacking incidents, credential stuffing, phishing, ransomware, malware, or unauthorized third-party access. By using DeneroUp, you acknowledge and accept this inherent risk. We make no warranty that our security measures will prevent all unauthorized access, disclosure, or misuse of your information.
     </div>
+    <p>DeneroUp does not warrant the security practices of any third-party financial institution or service provider, including Plaid or your bank.</p>
+
     <h3>Data Accuracy Disclaimer</h3>
-    <p>Transaction data retrieved from Plaid may be subject to delays, errors, duplications, or omissions due to factors outside our control. DeneroUp does not guarantee the accuracy, completeness, timeliness, or reliability of any financial data displayed in the App. Always verify important financial information directly with your financial institution.</p>
+    <p>Transaction data retrieved from Plaid may be subject to delays, errors, duplications, or omissions due to factors outside our control including bank processing times, Plaid synchronization issues, and third-party data sources. DeneroUp does not guarantee the accuracy, completeness, timeliness, or reliability of any financial data displayed in the App. Always verify important financial information directly with your financial institution.</p>
   </div>
 
+  <!-- 7. BREACH -->
   <div class="card" id="breach">
     <h2>7. Data Breach Notification</h2>
-    <p>In the event of a data breach reasonably likely to result in risk to your rights, we will:</p>
+    <p>In the event of a data breach that is reasonably likely to result in risk to your rights or cause harm, we will:</p>
     <ul>
-      <li><strong>Notify affected users within 72 hours</strong> of becoming aware of the breach, where feasible</li>
-      <li>Send notification via the email address associated with your account</li>
-      <li>Post a notice in the App if email notification is not possible</li>
-      <li>Describe the nature of the breach, data affected, and steps we are taking</li>
+      <li>Notify affected users without unreasonable delay and where feasible and required by applicable law</li>
+      <li>Send notification via the email address associated with your account where possible</li>
+      <li>Post a notice in the App if direct email notification is not feasible</li>
+      <li>Describe the nature of the breach, categories of data affected, and steps we are taking</li>
       <li>Provide guidance on steps you can take to protect yourself</li>
       <li>Report to applicable regulatory authorities as required by law</li>
     </ul>
+    <div class="warning">
+      <strong>Note:</strong> In some circumstances, notification timelines may be delayed at the direction of law enforcement, pending investigation, or where the full scope of a breach is not yet determined. We will act in good faith and in compliance with applicable legal requirements in all breach response situations.
+    </div>
     <p>If you believe your account has been compromised, contact us immediately at <strong>customersupport@deneroup.com</strong> — Subject: "URGENT: Security Concern."</p>
   </div>
 
+  <!-- 8. RETENTION -->
   <div class="card" id="retention">
     <h2>8. Data Retention and Deletion</h2>
-    <p>We retain your personal information for as long as necessary to provide our services, comply with legal obligations, resolve disputes, and enforce our agreements.</p>
+    <p>We retain your personal information for as long as necessary to provide our services, comply with legal obligations, resolve disputes, and enforce our agreements. When determining retention periods, we consider the nature of the data, purposes of processing, and applicable legal requirements.</p>
     <ul>
       <li><strong>Transaction data:</strong> Retained as long as your account is active and for any legally required period thereafter</li>
       <li><strong>Account information:</strong> Retained until you delete your account plus any legally required period</li>
-      <li><strong>Support communications:</strong> Retained for a reasonable period to resolve disputes</li>
+      <li><strong>Support communications:</strong> Retained for a reasonable period to resolve disputes and improve our services</li>
+      <li><strong>Terms acceptance logs:</strong> Retained for legal and compliance purposes for the duration required by law</li>
       <li><strong>Analytics data:</strong> Retained in anonymized form as needed for service improvement</li>
     </ul>
     <div class="highlight">
-      When you delete your account, we will delete or anonymize your personal information within <strong>30 days</strong>, except where retention is required by law. Email <strong>customersupport@deneroup.com</strong> — Subject: "Account Deletion Request."
+      <strong>Account Deletion:</strong> When you delete your account, we will delete or anonymize your personal information within <strong>30 days</strong>, except where retention is required by applicable law. To request account deletion, email <strong>customersupport@deneroup.com</strong> — Subject: "Account Deletion Request." We will confirm receipt within 5 business days.
     </div>
   </div>
 
+  <!-- 9. RECORDS -->
+  <div class="card" id="records">
+    <h2>9. User Responsibility for Records</h2>
+    <div class="warning">
+      <strong>Important:</strong> Users are solely responsible for maintaining independent copies of financial records, transaction histories, tax documentation, and other financial information necessary for accounting, tax, legal, or regulatory purposes. DeneroUp is not a record-keeping service and does not guarantee the ongoing availability, completeness, or accuracy of historical data displayed in the App. Do not rely solely on DeneroUp as your primary source of financial records. DeneroUp is not liable for any consequences arising from missing, incomplete, or inaccessible financial records, including tax penalties or legal consequences.
+    </div>
+  </div>
+
+  <!-- 10. RIGHTS -->
   <div class="card" id="rights">
-    <h2>9. Your Privacy Rights</h2>
-    <h3>9.1 Rights for All Users</h3>
+    <h2>10. Your Privacy Rights</h2>
+
+    <h3>10.1 Rights for All Users</h3>
     <ul>
       <li><strong>Access:</strong> Request a copy of the personal information we hold about you</li>
       <li><strong>Correction:</strong> Request correction of inaccurate or incomplete information</li>
@@ -224,102 +280,130 @@
       <li><strong>Portability:</strong> Request your data in a structured, machine-readable format</li>
       <li><strong>Opt-out:</strong> Opt out of non-essential communications at any time</li>
     </ul>
-    <h3>9.2 California Residents <span class="tag">CCPA / CPRA</span></h3>
+
+    <h3>10.2 California Residents <span class="tag">CCPA / CPRA</span></h3>
     <ul>
       <li>Right to know what personal information is collected, used, shared, or sold</li>
       <li>Right to delete personal information collected from you</li>
       <li>Right to opt-out of sale — <strong>Note: We do NOT sell personal information</strong></li>
       <li>Right to non-discrimination for exercising your privacy rights</li>
       <li>Right to correct inaccurate personal information</li>
+      <li>Right to limit use and disclosure of sensitive personal information</li>
     </ul>
-    <p>We will respond to verified California requests within 45 days.</p>
-    <h3>9.3 European Users <span class="tag">GDPR</span></h3>
+    <p>We will respond to verified California requests within 45 days, with a possible 45-day extension when reasonably necessary.</p>
+
+    <h3>10.3 European Users <span class="tag">GDPR</span></h3>
     <ul>
       <li>Right of access, rectification, erasure, and data portability</li>
       <li>Right to restriction of processing and right to object</li>
-      <li>Right to withdraw consent at any time</li>
+      <li>Right to withdraw consent at any time without affecting prior processing</li>
       <li>Right to lodge a complaint with your local supervisory authority</li>
     </ul>
-    <p>We will respond to GDPR requests within 30 days.</p>
+    <p>Our legal bases for processing: (1) performance of a contract, (2) legitimate interests, and (3) your consent where requested. We will respond to GDPR requests within 30 days.</p>
   </div>
 
+  <!-- 11. CHILDREN -->
   <div class="card" id="children">
-    <h2>10. Children's Privacy</h2>
-    <p>DeneroUp is not directed to children under the age of 13. We do not knowingly collect personal information from children under 13. If you are under 13, please do not use DeneroUp. If we learn we have collected information from a child under 13, we will delete it immediately. Contact us at customersupport@deneroup.com if you believe we have information from a child under 13.</p>
+    <h2>11. Children's Privacy</h2>
+    <p>DeneroUp is not directed to children under the age of 13. We do not knowingly collect personal information from children under 13. If you are under 13, please do not use DeneroUp. If we learn we have collected information from a child under 13 without parental consent, we will delete it as quickly as possible. Contact us at customersupport@deneroup.com if you believe we have information from or about a child under 13.</p>
   </div>
 
+  <!-- 12. THIRD PARTY -->
   <div class="card" id="third">
-    <h2>11. Third-Party Services</h2>
-    <p>DeneroUp integrates with the following third-party services governed by their own privacy policies:</p>
+    <h2>12. Third-Party Services</h2>
+    <p>DeneroUp integrates with third-party services whose collection and use of your data is governed by their own privacy policies. Our service providers may change from time to time — we will update this policy when material changes occur. Current integrations include:</p>
     <ul>
       <li><a href="https://plaid.com/legal/privacy-policy/" target="_blank">Plaid Technologies, Inc. Privacy Policy</a></li>
       <li><a href="https://supabase.com/privacy" target="_blank">Supabase, Inc. Privacy Policy</a></li>
       <li><a href="https://www.anthropic.com/privacy" target="_blank">Anthropic, Inc. Privacy Policy</a></li>
       <li><a href="https://www.apple.com/privacy/" target="_blank">Apple, Inc. Privacy Policy</a></li>
     </ul>
+    <p>We are not responsible for the privacy practices, security measures, or content of these third-party services. DeneroUp does not warrant the security practices of any third-party financial institution or service provider.</p>
   </div>
 
+  <!-- 13. INTERNATIONAL -->
   <div class="card" id="international">
-    <h2>12. International Data Processing</h2>
-    <p>DeneroUp is operated in the United States. Your information may be transferred to, stored, and processed in the United States and other countries where our service providers operate. Data protection laws in these countries may differ from the laws in your country. By using DeneroUp, you consent to the transfer of your information to the United States and other countries for processing as described in this Privacy Policy.</p>
+    <h2>13. International Data Processing</h2>
+    <p>DeneroUp is operated in the United States. Your information may be transferred to, stored, and processed in the United States and other countries where our service providers operate. Data protection laws in these countries may differ from the laws in your country of residence.</p>
+    <p>By using DeneroUp, you consent to the transfer of your information to the United States and other countries for processing as described in this Privacy Policy. Where required by applicable law, we implement appropriate safeguards for international data transfers.</p>
   </div>
 
+  <!-- 14. PLAID -->
   <div class="card" id="plaid">
-    <h2>13. Plaid Bank Connection</h2>
+    <h2>14. Plaid Bank Connection — Important Disclosures</h2>
     <p>When you connect your bank account through Plaid, you expressly consent to:</p>
     <ul>
-      <li><strong>Account Access:</strong> DeneroUp and Plaid accessing your bank account information including transaction history, balances, and account details</li>
-      <li><strong>Ongoing Retrieval:</strong> Periodic retrieval of updated transaction data and balances</li>
-      <li><strong>Data Refresh:</strong> Transaction data may be refreshed automatically or on demand</li>
+      <li><strong>Account Access:</strong> DeneroUp and Plaid accessing your financial account information including transaction history, balances, and account details</li>
+      <li><strong>Ongoing Retrieval:</strong> Periodic retrieval of updated transaction data and balances to keep your information current</li>
+      <li><strong>Data Refresh:</strong> Transaction data may be refreshed automatically or when you manually request an update</li>
       <li><strong>Connection Persistence:</strong> Your bank connection remains active until you explicitly disconnect it</li>
     </ul>
     <div class="warning">
-      <strong>Data Accuracy Notice:</strong> Plaid synchronization may experience delays, failures, or errors. Transaction data may be incomplete, delayed, or occasionally contain duplicates. Always verify critical financial information directly with your bank.
+      <strong>Data Accuracy Notice:</strong> Plaid synchronization may experience delays, failures, or errors. Transaction data may be incomplete, delayed, or occasionally contain duplicates. DeneroUp is not responsible for the acts, omissions, errors, or security practices of Plaid or any financial institution. Always verify critical financial information directly with your bank.
     </div>
     <p>To disconnect your bank account, email customersupport@deneroup.com or use the disconnect option in App settings.</p>
   </div>
 
+  <!-- 15. TRACKING -->
   <div class="card" id="tracking">
-    <h2>14. Tracking Technologies</h2>
-    <p>DeneroUp does not use browser cookies. We may use mobile analytics tools to collect anonymized usage data to improve the App. This data cannot be used to identify you personally. You may opt out by contacting customersupport@deneroup.com.</p>
+    <h2>15. Tracking Technologies</h2>
+    <p>DeneroUp does not use browser cookies. We may use mobile analytics tools to collect anonymized, aggregated usage data to improve the App's functionality and user experience. We do not intentionally use this data to personally identify you, and it is not used to track you across other apps or websites.</p>
+    <p>You may opt out of analytics data collection by contacting customersupport@deneroup.com.</p>
   </div>
 
+  <!-- 16. AVAILABILITY -->
+  <div class="card" id="availability">
+    <h2>16. Service Availability</h2>
+    <p>The Service may be interrupted, unavailable, delayed, or degraded from time to time due to maintenance, internet outages, third-party dependencies, security incidents, or other causes outside our control. We may also modify or discontinue features as necessary to comply with legal, regulatory, security, or operational requirements. DeneroUp is not liable for any loss or damage caused by service interruptions or feature changes.</p>
+  </div>
+
+  <!-- 17. APPLE -->
   <div class="card" id="apple">
-    <h2>15. Apple App Store</h2>
+    <h2>17. Apple App Store — Additional Disclosures</h2>
     <ul>
-      <li><strong>Account Deletion:</strong> Request deletion anytime at customersupport@deneroup.com — Subject: "Account Deletion Request." Completed within 30 days.</li>
-      <li><strong>App Purchases:</strong> All purchases processed by Apple. Refund requests must be directed to Apple.</li>
+      <li><strong>Account Deletion:</strong> Request deletion at any time by emailing customersupport@deneroup.com — Subject: "Account Deletion Request." Completed within 30 days.</li>
+      <li><strong>App Purchases:</strong> All purchases are processed by Apple. Refund requests must be directed to Apple.</li>
       <li><strong>App Tracking Transparency:</strong> If DeneroUp requests permission to track activity across other apps, you may decline via Apple's prompt.</li>
+      <li><strong>Apple Privacy:</strong> Apple may collect certain data as part of app distribution, governed by Apple's Privacy Policy.</li>
     </ul>
   </div>
 
+  <!-- 18. CHANGES -->
   <div class="card" id="changes">
-    <h2>16. Changes to This Privacy Policy</h2>
-    <p>When we make material changes, we will post the updated policy in the App, update the "Last Updated" date, and send email notification at least 30 days before changes take effect. Your continued use after the effective date constitutes acceptance of the changes.</p>
+    <h2>18. Changes to This Privacy Policy</h2>
+    <p>We may update this Privacy Policy from time to time. All changes will be versioned and dated. When we make material changes, we will post the updated policy in the App and on this page, update the "Last Updated" date and version number, and aim to notify you by email at least 30 days before material changes take effect.</p>
+    <p>Your continued use of DeneroUp after the effective date constitutes acceptance of the updated policy. If you do not agree, you must stop using the App and may request account deletion.</p>
   </div>
 
+  <!-- 19. CONTACT -->
   <div class="contact-box" id="contact">
-    <h2>17. Contact Us</h2>
-    <p>We aim to respond to all privacy inquiries within <strong>5 business days.</strong></p>
+    <h2>19. Contact Us</h2>
+    <p>Questions, concerns, or privacy requests? We aim to respond within <strong>5 business days.</strong></p>
     <br>
     <p><strong>General & Privacy Inquiries:</strong> customersupport@deneroup.com</p>
-    <p><strong>Account Deletion:</strong> Subject line — "Account Deletion Request"</p>
-    <p><strong>Security Concerns:</strong> Subject line — "URGENT: Security Concern"</p>
+    <p><strong>Account Deletion:</strong> Subject — "Account Deletion Request"</p>
+    <p><strong>Security Concerns:</strong> Subject — "URGENT: Security Concern"</p>
+    <p><strong>Legal Notices:</strong> Subject — "Legal Notice"</p>
     <br>
     <a href="mailto:customersupport@deneroup.com" class="email-link">customersupport@deneroup.com</a>
   </div>
 
+  <!-- 20. GOVERNING -->
   <div class="card" id="governing" style="margin-top:24px;">
-    <h2>18. Governing Law</h2>
-    <p>This Privacy Policy is governed by the laws of the State of Florida, United States, without regard to conflict of law provisions. Any legal disputes relating to this Privacy Policy shall be subject to the dispute resolution terms in our Terms of Service, which includes binding arbitration and class action waiver provisions. If any provision of this Privacy Policy is found unenforceable, the remaining provisions continue in full force.</p>
+    <h2>20. Governing Law</h2>
+    <p>This Privacy Policy is governed by the laws of the State of Florida, United States, without regard to conflict of law provisions. Any legal disputes relating to this Privacy Policy shall be subject to the dispute resolution terms in our <a href="https://deneroup.github.io/deneroup/terms-of-service.html" target="_blank">Terms of Service</a>, which includes binding arbitration and class action waiver provisions. If any provision of this Privacy Policy is found unenforceable, the remaining provisions continue in full force.</p>
   </div>
 
 </div>
 
 <div class="footer">
-  <p>© 2026 DeneroUp | All Rights Reserved</p>
-  <p style="margin-top:8px;">Last updated: May 10, 2026</p>
-  <p style="margin-top:8px;"><a href="mailto:customersupport@deneroup.com">customersupport@deneroup.com</a></p>
+  <p>© 2026 DeneroUp | All Rights Reserved | Version 1.2</p>
+  <p style="margin-top:8px;">Last updated: May 11, 2026</p>
+  <p style="margin-top:8px;">
+    <a href="https://deneroup.github.io/deneroup/terms-of-service.html">Terms of Service</a>
+    &nbsp;|&nbsp;
+    <a href="mailto:customersupport@deneroup.com">customersupport@deneroup.com</a>
+  </p>
 </div>
 
 </body>
